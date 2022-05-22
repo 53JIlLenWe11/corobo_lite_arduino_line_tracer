@@ -1,0 +1,30 @@
+{
+	"C_Cpp.default.browse.path": [
+		"C:\\Program Files (x86)\\Arduino\\tools",
+		"C:\\Program Files (x86)\\Arduino\\hardware",
+		"C:\\Program Files (x86)\\Arduino\\libraries",
+		// "%USERPROFILE%/Documents/Arduino/libraries/**",
+		// "/Users/${env:USERNAME}/Documents/Arduino/libraries/**",
+		// "/Users/${USERNAME}/Documents/Arduino/libraries/**",
+		"${workspaceFolder}/../libraries/**",
+	],
+	"C_Cpp.default.includePath": [
+		"C:\\Program Files (x86)\\Arduino\\tools",
+		"C:\\Program Files (x86)\\Arduino\\hardware",
+		"C:\\Program Files (x86)\\Arduino\\libraries",
+		// "%USERPROFILE%/Documents/Arduino/libraries/**",
+		// "/Users/${env:USERNAME}/Documents/Arduino/libraries/**",
+		// "/Users/${USERNAME}/Documents/Arduino/libraries/**",
+		"${workspaceFolder}/../libraries/**",
+	],
+	"files.associations": {
+		"initializer_list": "cpp",
+		"xstring": "cpp",
+		"xutility": "cpp",
+		"xiosbase": "cpp"
+	},
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools",
+		"editor.formatOnSave": true,
+	},
+}
