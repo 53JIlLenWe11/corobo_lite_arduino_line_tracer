@@ -97,7 +97,14 @@ void loop() {
 	Serial.println(String(outer_left) + ":" + String(inner_left) + "↑" + String(inner_right) + ":" +
 				   String(outer_right));
 	test = !test;
-	if (outer_left && inner_left) {
+	if (outer_left && inner_left && !outer_right && !inner_right) {
+		// delay(20);
+		right_turn(80);
+	} else if (!outer_left && !inner_left && outer_right && !inner_right) {
+		// delay(20);
+		left_turn(80);
+	} else if (outer_left && inner_left) {
+		// if (outer_left && inner_left) {
 		if (outer_right && inner_right) {
 			Serial.println("前方はすべて黒");
 			left_go();
